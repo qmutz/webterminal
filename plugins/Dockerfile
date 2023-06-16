@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:kinetic
 LABEL maintainer zhengge2012@gmail.com
 RUN apt-get update
 RUN apt-get remove docker docker-engine docker.io -y
